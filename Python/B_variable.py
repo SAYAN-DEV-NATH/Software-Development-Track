@@ -23,3 +23,10 @@ print("Kodom Ali" + "Kacha badam")
 text = f"Kodom ali {age} living in {district}. Interesting with rate {interest_rate}%"
 print(text)
 print("Kodom ali ",age," living in ",district,". Interesting with rate ",interest_rate,"%")
+
+'''
+Google Search
+1. convert number to string
+2. convert decimal number to float
+3. python int vs float
+'''
