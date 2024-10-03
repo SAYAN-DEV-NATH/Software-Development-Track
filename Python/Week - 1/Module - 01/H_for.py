@@ -25,5 +25,8 @@ friends = ["nobel", "ashir", "rabi", "naz"]
 # for friend in friends:
 #     print(f"Friend: {friend}", end=" ")
 
-for index, value in enumerate(friends):
-    print(index, value)
+# for index, value in enumerate(friends):
+#     print(index, value)
+
+for i in range(5):
+    print(i)
