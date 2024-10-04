@@ -6,22 +6,9 @@
 print(sum(1, 2)) """
 
 
-# star args
-def fun(*numbers):
-    sum = 0
-    for value in numbers:
-        sum += value
-    return sum
+def sum(num1, num2, num3=0, num4=0, num5=0):
+    result = num1 + num2 + num3 + num4 + num5
+    return result
 
 
-print(fun(1, 2, 3, 4, 5, 6))
-
-
-def fun(num1, num2, *numbers):
-    sum = 0
-    for value in numbers:
-        sum += value
-    return sum
-
-
-print(fun(1, 2, 3, 4, 5, 6))
+print(sum(1, 2))
